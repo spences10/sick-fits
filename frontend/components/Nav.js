@@ -1,18 +1,29 @@
 import Link from 'next/link'
 
-const Nav = props => {
+import NavStyles from './styles/navStyles'
+
+const Nav = () => {
   return (
-    <React.Fragment>
-      <Link href="/sell">
-        <a>Sell</a>
-      </Link>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-    </React.Fragment>
+    <NavStyles>
+
+    <Link href="/items">
+      <a>Items</a>
+    </Link>
+    <Link href="/sell">
+      <a>Sell</a>
+    </Link>
+    <Link href="/signup">
+      <a>Signup</a>
+    </Link>
+    <Link href="/orders">
+      <a>Orders</a>
+    </Link>
+    <Link href="/me">
+      <a>Account</a>
+    </Link>
+
+    </NavStyles>
   )
 }
-
-Nav.propTypes = {}
 
 export default Nav
