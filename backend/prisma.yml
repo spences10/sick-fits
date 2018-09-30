@@ -1,2 +1,6 @@
-endpoint: https://eu1.prisma.sh/scott-spence-c97da5/sick-fits/dev
+endpoint: ${env:PRISMA_ENDPOINT}
 datamodel: datamodel.prisma
+# secret: ${PRISMA_SECRET}
+hooks:
+  post-deploy:
+    - graphql get-schema -p prisma
