@@ -10,7 +10,7 @@ type Item {
   title: String!
   description: String!
   image: String
-  largImage: String
+  largeImage: String
   price: Int!
   createdAt: DateTime!
   updatedAt: DateTime!
