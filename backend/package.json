@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The backend of Sick Fits",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -21,7 +21,7 @@
     "dotenv": "6.1.0",
     "graphql": "^14.0.0",
     "graphql-cli": "^2.16.7",
-    "graphql-yoga": "1.16.2",
+    "graphql-yoga": "1.16.7",
     "jsonwebtoken": "8.3.0",
     "nodemailer": "^4.6.8",
     "nodemon": "1.18.4",
