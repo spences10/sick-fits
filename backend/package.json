@@ -1,6 +1,10 @@
 {
   "name": "sick-fits-backend",
+<<<<<<< f0a9f2d78d6977938faf74dea42c77308f0f641c
   "version": "1.0.5",
+=======
+  "version": "1.0.2",
+>>>>>>> Update dependency prisma to v1.19.3
   "description": "The backend of Sick Fits",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
