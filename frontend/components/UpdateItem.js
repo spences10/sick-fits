@@ -116,7 +116,10 @@ class UpdateItem extends React.Component {
                         onChange={this.handleChange}
                       />
                     </label>
-                    <button type="submit">Save Changes</button>
+                    <button type="submit">
+                      Sav
+                      {loading ? 'ing' : 'e'} Changes
+                    </button>
                   </fieldset>
                 </Form>
               )}
