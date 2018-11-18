@@ -30,11 +30,11 @@ const CREATE_ITEM_MUTATION = gql`
 
 class CreateItem extends React.Component {
   state = {
-    title: 'from to add shit',
-    description: 'some more detailed shit to go in here',
-    image: 'lol.jpg',
-    largeImage: 'largelol.jpg',
-    price: 100000
+    title: '',
+    description: '',
+    image: '',
+    largeImage: '',
+    price: 0
   }
 
   handleChange = e => {
