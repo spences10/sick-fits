@@ -14,6 +14,12 @@ const Mutations = {
     console.log(item)
 
     return item
+  },
+  updateItem(parent, args, ctx, info) {
+    // take a copy of the updates
+    const updates = { ...args }
+    // remove ID from there
+    delete updates.id
   }
 }
 
