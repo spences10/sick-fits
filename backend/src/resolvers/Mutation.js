@@ -20,6 +20,16 @@ const Mutations = {
     const updates = { ...args }
     // remove ID from there
     delete updates.id
+    // run the update method
+    return ctx.db.mutation.updateItem(
+      {
+        data: updates,
+        where: {
+          id: args.id
+        }
+      },
+      info
+    )
   }
 }
 
