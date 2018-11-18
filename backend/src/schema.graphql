@@ -1,5 +1,7 @@
 # import * from './generated/prisma.graphql'
 
+# public facing API for JS
+
 type Mutation {
   createItem(
     title: String
