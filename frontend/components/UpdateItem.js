@@ -8,8 +8,8 @@ import Error from './errorMessage'
 
 import formatMoney from '../lib/formatMoney'
 
-const CREATE_ITEM_MUTATION = gql`
-  mutation CREATE_ITEM_MUTATION(
+const UPDATE_ITEM_MUTATION = gql`
+  mutation UPDATE_ITEM_MUTATION(
     $title: String!
     $description: String!
     $price: Int!
@@ -28,7 +28,7 @@ const CREATE_ITEM_MUTATION = gql`
   }
 `
 
-class CreateItem extends React.Component {
+class UpdateItem extends React.Component {
   state = {
     title: '',
     description: '',
@@ -64,7 +64,7 @@ class CreateItem extends React.Component {
   render() {
     return (
       <Mutation
-        mutation={CREATE_ITEM_MUTATION}
+        mutation={UPDATE_ITEM_MUTATION}
         variables={this.state}
       >
         {(createItem, { loading, error }) => (
@@ -148,5 +148,5 @@ class CreateItem extends React.Component {
   }
 }
 
-export default CreateItem
-export { CREATE_ITEM_MUTATION }
+export default UpdateItem
+export { UPDATE_ITEM_MUTATION }
