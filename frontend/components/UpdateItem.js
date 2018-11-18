@@ -46,24 +46,20 @@ class UpdateItem extends React.Component {
   handleChange = e => {
     const { name, type, value } = e.target
     const val = type === 'number' ? parseFloat(value) : value
-    this.setState({
-      [name]: val
-    })
+    this.setState({ [name]: val })
   }
 
   updateItem = async (e, updateItemMutation) => {
     e.preventDefault()
-    console.log('=====================')
-    console.log('Updating item!!')
+    console.log('Updating Item!!')
     console.log(this.state)
-    console.log('=====================')
     const res = await updateItemMutation({
       variables: {
-        id: this.state.id,
+        id: this.props.id,
         ...this.state
       }
     })
-    console.log('done!')
+    console.log('Updated!!')
   }
 
   render() {
