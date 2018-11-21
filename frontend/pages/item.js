@@ -3,7 +3,7 @@ import SingleItem from '../components/SingleItem'
 const Item = props => {
   return (
     <React.Fragment>
-      <SingleItem />
+      <SingleItem id={props.query.id} />
     </React.Fragment>
   )
 }
