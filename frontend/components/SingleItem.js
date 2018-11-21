@@ -3,6 +3,7 @@ import gql from 'graphql-tag'
 import { Query } from 'react-apollo'
 import styled from 'styled-components'
 
+import Head from 'next/head'
 import Error from './errorMessage'
 
 const SingleItemStyle = styled.div`
@@ -43,6 +44,7 @@ class SingleItem extends React.Component {
           const item = data.item
           return (
             <SingleItemStyle>
+              <Head>Sick Fits! | {item.title}</Head>
               <img src={item.largeImage} alt={item.title} />
             </SingleItemStyle>
           )
