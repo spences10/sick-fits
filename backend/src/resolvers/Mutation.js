@@ -48,9 +48,13 @@ const Mutations = {
     // has the password
     const password = await bcrypt.hash(args.password, 10)
     // create user in database
-    const user = await ctx.mutation.createUser(
+    const user = await ctx.db.mutation.createUser(
       {
-        data: { ...args, password, permissions: { set: ['USER'] } }
+        data: {
+          ...args,
+          password,
+          permissions: { set: ['USER'] }
+        }
       },
       info
     ) // create the user JWT
