@@ -38,8 +38,7 @@ const Pagination = props => {
               href={{
                 pathname: 'items',
                 query: { page: page - 1 }
-              }}
-            >
+              }}>
               <a className="prev" aria-disabled={page <= 1}>
                 ⬅ Prev
               </a>
@@ -53,8 +52,7 @@ const Pagination = props => {
               href={{
                 pathname: 'items',
                 query: { page: page + 1 }
-              }}
-            >
+              }}>
               <a className="next" aria-disabled={page >= pages}>
                 ➡ Next
               </a>
