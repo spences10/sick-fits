@@ -1,11 +1,9 @@
-import Link from 'next/link'
+import Items from '../components/Items'
 
-const Home = props => {
-  return (
-    <React.Fragment>
-      <p>Index Component</p>
-    </React.Fragment>
-  )
-}
+const Home = props => (
+  <React.Fragment>
+    <Items page={parseFloat(props.query.page) || 1} />
+  </React.Fragment>
+)
 
 export default Home
