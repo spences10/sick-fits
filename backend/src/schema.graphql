@@ -26,6 +26,6 @@ type Query {
     skip: Int
     first: Int
   ): [Item]!
-  item(where: ItemWhereUniqueInput!): Item!
+  item(where: ItemWhereUniqueInput!): Item
   itemsConnection(where: ItemWhereInput): ItemConnection!
 }
