@@ -39,8 +39,12 @@ class Signup extends React.Component {
             method="post"
             onSubmit={async e => {
               e.preventDefault()
-              const res = await signup()
-              console.log(res)
+              // TODO: custom error message for email
+              // use the variable (res) to do that, for
+              // now just await'ing the signup() function
+              // const res = await signup()
+              // console.log(res)
+              await signup()
               this.setState({
                 email: '',
                 name: '',
