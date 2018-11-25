@@ -11,7 +11,7 @@ const Query = {
     }
     // if they are logged in then return
     // the query for the user
-    return ctx.bd.query.user(
+    return ctx.db.query.user(
       {
         where: { id: ctx.request.userId }
       },
