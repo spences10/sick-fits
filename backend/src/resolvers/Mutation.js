@@ -14,7 +14,8 @@ const Mutations = {
       info
     )
 
-    console.log(item)
+    // verbose logging, uncomment below
+    // console.log(item)
 
     return item
   },
