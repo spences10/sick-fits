@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-frontend",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo application.",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -16,7 +16,7 @@
     "precommit": "pretty-quick --staged"
   },
   "dependencies": {
-    "apollo-boost": "^0.1.16",
+    "apollo-boost": "^0.3.0",
     "apollo-client": "^2.4.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-styled-components": "^1.7.1",
