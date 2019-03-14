@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-backend",
-  "version": "1.0.71",
+  "version": "1.0.72",
   "description": "The backend of Sick Fits",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -18,7 +18,7 @@
     "babel-preset-env": "^1.7.0",
     "bcryptjs": "2.4.3",
     "cookie-parser": "^1.4.3",
-    "dotenv": "6.2.0",
+    "dotenv": "7.0.0",
     "graphql": "^14.0.0",
     "graphql-cli": "3.0.11",
     "graphql-yoga": "1.17.4",
