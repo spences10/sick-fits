@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-frontend",
-  "version": "1.0.25",
+  "version": "1.0.27",
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo application.",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -38,7 +38,7 @@
     "react-apollo": "^2.2.1",
     "react-dom": "^16.5.2",
     "react-stripe-checkout": "^2.6.3",
-    "react-transition-group": "^2.5.0",
+    "react-transition-group": "^4.0.0",
     "styled-components": "^4.0.0",
     "waait": "^1.0.2"
   },
