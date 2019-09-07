@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-backend",
-  "version": "1.0.109",
+  "version": "1.0.111",
   "description": "The backend of Sick Fits",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -24,10 +24,10 @@
     "graphql-yoga": "1.18.3",
     "jsonwebtoken": "8.5.1",
     "nodemailer": "^6.0.0",
-    "nodemon": "1.19.1",
+    "nodemon": "1.19.2",
     "npm-run-all": "^4.1.3",
     "prisma": "1.34.8",
-    "prisma-binding": "2.3.15",
+    "prisma-binding": "2.3.16",
     "stripe": "^7.0.0"
   },
   "babel": {
