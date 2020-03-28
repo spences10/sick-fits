@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-frontend",
-  "version": "1.0.54",
+  "version": "1.0.55",
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo application.",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -43,12 +43,12 @@
     "waait": "^1.0.2"
   },
   "devDependencies": {
-    "babel-jest": "25.1.0",
+    "babel-jest": "25.2.3",
     "babel-plugin-module-resolver": "4.0.0",
     "casual": "1.6.2",
     "enzyme-to-json": "3.4.4",
     "graphql-tools": "4.0.7",
-    "jest": "25.1.0",
+    "jest": "25.2.3",
     "jest-transform-graphql": "2.1.0"
   },
   "jest": {
