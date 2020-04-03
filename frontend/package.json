@@ -1,6 +1,6 @@
 {
   "name": "sick-fits-frontend",
-  "version": "1.0.57",
+  "version": "1.0.58",
   "description": "Sick Fits! An example React, GraphQL, Next and Apollo application.",
   "keywords": [],
   "author": "Scott Spence <spences10apps@gmail.com> (https://scottspence.me/)",
@@ -24,7 +24,7 @@
     "downshift": "^5.0.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.5.0",
-    "graphql": "^14.0.2",
+    "graphql": "^15.0.0",
     "graphql-tag": "^2.9.2",
     "lodash.debounce": "^4.0.8",
     "next": "^9.0.0",
