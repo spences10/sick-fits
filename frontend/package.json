@@ -48,7 +48,7 @@
     "casual": "1.6.2",
     "enzyme-to-json": "3.4.4",
     "graphql-tools": "4.0.7",
-    "jest": "25.2.6",
+    "jest": "25.2.7",
     "jest-transform-graphql": "2.1.0"
   },
   "jest": {
