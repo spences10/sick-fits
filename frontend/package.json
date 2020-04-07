@@ -30,7 +30,7 @@
     "next": "^9.0.0",
     "next-with-apollo": "^5.0.0",
     "nprogress": "^0.2.0",
-    "prettier": "2.0.2",
+    "prettier": "2.0.4",
     "pretty-quick": "2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
