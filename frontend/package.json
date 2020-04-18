@@ -47,7 +47,7 @@
     "babel-plugin-module-resolver": "4.0.0",
     "casual": "1.6.2",
     "enzyme-to-json": "3.4.4",
-    "graphql-tools": "4.0.8",
+    "graphql-tools": "5.0.0",
     "jest": "25.3.0",
     "jest-transform-graphql": "2.1.0"
   },
