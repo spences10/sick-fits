@@ -1,7 +1,9 @@
+import Products from '../components/products'
+
 export default function OrderPage() {
   return (
     <div>
-      <p>Hey!</p>
+      <Products />
     </div>
   )
 }
