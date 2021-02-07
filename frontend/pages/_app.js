@@ -3,7 +3,7 @@ import Router from 'next/router'
 import NProgress from 'nprogress'
 import Page from '../components/page'
 import '../components/styles/nprogress.css'
-import withData from '../lib/withData'
+import withData from '../lib/with-data'
 
 Router.events.on('routeChangeStart', () => NProgress.start())
 Router.events.on('routeChangeComplete', () => NProgress.done())
