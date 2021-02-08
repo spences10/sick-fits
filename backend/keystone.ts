@@ -5,10 +5,13 @@ import {
   withItemData,
 } from '@keystone-next/keystone/session'
 import 'dotenv/config'
+import { sendPasswordResetEmail } from './lib/mail'
 import { Product } from './schemas/product'
 import { ProductImage } from './schemas/product-image'
 import { User } from './schemas/user'
 import { insertSeedData } from './seed-data'
+
+function check(name: string) {}
 
 const databaseURL = process.env.DATABASE_URL
 
@@ -26,7 +29,8 @@ const { withAuth } = createAuth({
   },
   passwordResetLink: {
     async sendToken(args) {
-      console.log(args)
+      // send the email
+      await sendPasswordResetEmail(args.token, args.identity)
     },
   },
 })
