@@ -24,13 +24,21 @@ const { withAuth } = createAuth({
   initFirstItem: {
     fields: ['name', 'email', 'password'],
   },
+  passwordResetLink: {
+    async sendToken(args) {
+      console.log(args)
+    },
+  },
 })
 
 export default withAuth(
   // @ts-ignore
   config({
     server: {
-      cors: { origin: [process.env.FRONTEND_URL], credentials: true },
+      cors: {
+        origin: [process.env.FRONTEND_URL],
+        credentials: true,
+      },
     },
     db: {
       adapter: 'mongoose',
@@ -41,14 +49,16 @@ export default withAuth(
         }
       },
     },
-    lists: createSchema({ User, Product, ProductImage }),
+    lists: createSchema({
+      User,
+      Product,
+      ProductImage,
+    }),
     ui: {
-      isAccessAllowed: ({ session }) => {
-        return !!session?.data
-      },
+      isAccessAllowed: ({ session }) => !!session?.data,
     },
     session: withItemData(statelessSessions(sessionConfig), {
-      User: `id`,
+      User: 'id name email',
     }),
   })
 )
