@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import formatMoney from '../lib/format-money'
+import AddToCart from './add-to-cart'
 import DeleteProduct from './delete-product'
 import ItemStyles from './styles/ItemStyles'
 import PriceTag from './styles/PriceTag'
@@ -20,7 +21,7 @@ export default function Product({ product }) {
       <div className="buttonList">
         <Link
           href={{
-            pathname: 'update',
+            pathname: '/update',
             query: {
               id: product.id,
             },
@@ -28,6 +29,7 @@ export default function Product({ product }) {
         >
           Edit ✏️
         </Link>
+        <AddToCart id={product.id} />
         <DeleteProduct id={product.id}>Delete</DeleteProduct>
       </div>
     </ItemStyles>
