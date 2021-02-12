@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import calcTotalPrice from '../lib/calc-total-price'
 import { useCart } from '../lib/cart-state'
 import formatMoney from '../lib/format-money'
+import RemoveFromCart from './remove-from-cart'
 import CartStyles from './styles/CartStyles'
 import CloseButton from './styles/CloseButton'
 import Supreme from './styles/Supreme'
@@ -41,6 +42,7 @@ function CartItem({ cartItem }) {
           </em>
         </p>
       </div>
+      <RemoveFromCart id={cartItem.id} />
     </CartItemStyles>
   )
 }
