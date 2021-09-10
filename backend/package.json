@@ -20,7 +20,7 @@
     "@keystone-next/fields": "^15.0.0",
     "@keystone-next/keystone": "^9.3.1",
     "@keystone-next/types": "^10.0.0",
-    "@keystonejs/server-side-graphql-client": "^1.1.2",
+    "@keystonejs/server-side-graphql-client": "^2.1.2",
     "@types/nodemailer": "^6.4.0",
     "dotenv": "^8.2.0",
     "next": "^11.1.2",
