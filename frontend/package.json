@@ -46,7 +46,7 @@
     "@babel/preset-env": "^7.16.4",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/user-event": "^13.5.0",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^27.2.5",
     "casual": "^1.6.2",
