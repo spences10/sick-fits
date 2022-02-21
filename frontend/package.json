@@ -16,7 +16,7 @@
     "test": "NODE_ENV=test jest --watch"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.8",
+    "@apollo/client": "^3.5.9",
     "@apollo/link-error": "^2.0.0-beta.3",
     "@apollo/react-ssr": "^4.0.0",
     "@stripe/react-stripe-js": "^1.7.0",
